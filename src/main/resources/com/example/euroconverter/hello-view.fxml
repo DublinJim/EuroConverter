@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.euroconverter.HelloController">
-  <padding>
-    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-  </padding>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-  <Label fx:id="welcomeText"/>
-  <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.euroconverter.HelloController">
+   <children>
+      <Text fx:id="txt1" layoutX="199.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EuroConvertor">
+         <font>
+            <Font name="Marlett" size="29.0" />
+         </font>
+      </Text>
+      <Button fx:id="UsBtn" layoutX="175.0" layoutY="248.0" mnemonicParsing="false" onAction="#usConvert" onMouseClicked="#Convert" prefHeight="30.0" prefWidth="68.0" text="Us Dollar" />
+      <Label layoutX="184.0" layoutY="148.0" text="1 Euro =">
+         <font>
+            <Font name="MT Extra" size="20.0" />
+         </font>
+      </Label>
+      <Text fx:id="amountTxt" layoutX="305.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Label fx:id="currnrcyLbl" layoutX="273.0" layoutY="145.0" prefHeight="30.0" prefWidth="30.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="yenBtn" layoutX="260.0" layoutY="248.0" mnemonicParsing="false" onAction="#yenConvert" onMouseClicked="#Convert" prefHeight="30.0" prefWidth="68.0" text="Jap Yen" />
+      <Button fx:id="gbdBtn" layoutX="339.0" layoutY="248.0" mnemonicParsing="false" onAction="#GbcConvert" onMouseClicked="#Convert" prefHeight="30.0" prefWidth="68.0" text="GBD" />
+   </children>
+</AnchorPane>
