@@ -35,7 +35,7 @@ public class HelloController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
-
+amountTxt.setVisible(false);
     }
 
 
@@ -43,7 +43,7 @@ public class HelloController implements Initializable {
     void GbcConvert(ActionEvent event) {
         double amt =euroConverter.getGBP();
         amountTxt.setText(String.valueOf(amt));
-
+        amountTxt.setVisible(true);
         currnrcyLbl.setText("£");
     }
 
@@ -51,6 +51,7 @@ public class HelloController implements Initializable {
     void usConvert(ActionEvent event) {
         double amt =euroConverter.getUSD();
         amountTxt.setText(String.valueOf(amt));
+        amountTxt.setVisible(true);
         currnrcyLbl.setText("$");
 
     }
@@ -59,6 +60,7 @@ public class HelloController implements Initializable {
     void yenConvert(ActionEvent event) {
         double amt =euroConverter.getYen();
         amountTxt.setText(String.valueOf(amt));
+        amountTxt.setVisible(true);
         currnrcyLbl.setText("¥");
 
     }

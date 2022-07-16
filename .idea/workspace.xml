@@ -10,15 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1720af5b-3e42-4f37-a3b2-dfbf2368235d" name="Changes" comment="adds new buttons">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/euroconverter/EuroConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/euroconverter/EuroConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/euroconverter/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/euroconverter/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/euroconverter/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/euroconverter/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/euroconverter/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/euroconverter/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/euroconverter/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/euroconverter/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/dubli/IdeaProjects/EuroConverter",
+    "last_opened_file_path": "D:/GitHub/EuroConverter",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
@@ -68,7 +61,7 @@
       <recent name="com.example.euroconverter" />
     </key>
   </component>
-  <component name="RunManager" selected="JAR Application.EuroConverter.jar">
+  <component name="RunManager" selected="Application.HelloApplication">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.euroconverter.HelloApplication" />
       <module name="EuroConverter" />
@@ -88,8 +81,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.EuroConverter.jar" />
         <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="JAR Application.EuroConverter.jar" />
       </list>
     </recent_temporary>
   </component>
